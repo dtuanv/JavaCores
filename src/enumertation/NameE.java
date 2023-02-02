@@ -1,6 +1,7 @@
 package enumertation;
 
 public enum NameE {
+    OANH,
     TUAN,
-    OANH
+    HAI
 }
