@@ -6,5 +6,14 @@ public class Main {
         myPig.animalSound();
         myPig.run();
         myPig.sleep();
+
+        Vehicle car = new Car();
+        Vehicle motorbike = new Motorbike();
+
+
+        VehicleControl vehicleControlMotorbike = new VehicleControl(motorbike);
+        vehicleControlMotorbike.control();
+        VehicleControl vehicleControl = new VehicleControl(car);
+        vehicleControl.control();
     }
 }
