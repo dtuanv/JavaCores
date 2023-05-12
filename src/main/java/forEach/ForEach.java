@@ -11,6 +11,7 @@ public class ForEach {
         String [] cars = {"BMW M2", "Veloster N", "Honda"};
         for(String car : cars){
             System.out.println("car: "+car);
+
         }
 
         ArrayList<String> myFamilys = new ArrayList<>();

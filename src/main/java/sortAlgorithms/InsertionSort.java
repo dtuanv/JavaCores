@@ -1,4 +1,4 @@
-package main.java.abstractFd.sortAlgorithms;
+package sortAlgorithms;
 
 
 public class InsertionSort {
